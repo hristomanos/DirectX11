@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableGameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="OBJLoader.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="Bone.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5c65bb77-486a-4c4e-a1b8-db822f520520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f0385bfe-7a7f-47ce-9528-e5bdf6b45340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f0091e26-1573-444a-9366-352d472c9bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{d9cad8ab-6055-4864-8bfe-16e2fdd26082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImGui">
+      <UniqueIdentifier>{f8250f82-1412-4a6c-8e2c-51b1e18be13c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{9df5f1aa-a320-447a-a8fd-37d89a9fcaa6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableGameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h" />
+    <ClInclude Include="OBJLoader.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="Bone.h" />
+    <ClInclude Include="Mesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tutorial01.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\stone.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="directx.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader.fx">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+    <FxCompile Include="ScreenQuadShader.fx" />
+    <FxCompile Include="TerrainShader.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Utilities\RootDir.h.in" />
+  </ItemGroup>
+</Project>
